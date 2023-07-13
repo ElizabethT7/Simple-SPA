@@ -8,4 +8,9 @@
   cursor: pointer;
 }
 
+.language__select:focus{
+  border: none;
+  outline: none;
+}
+
 

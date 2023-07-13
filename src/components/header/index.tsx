@@ -2,8 +2,9 @@ import React from 'react';
 import SelectLanguage from '../select-language';
 import Watch from '../watch';
 import './style.css';
-class Header extends React.Component {
 
+class Header extends React.Component {
+  
   render() {
     return (
       <header className='header'>
@@ -19,7 +20,9 @@ class Header extends React.Component {
                 alt="photo"
                 width="40px"
                 height="40px"
-                className='header__img'></img>
+                className='header__img'
+              >
+              </img>
             </div>
           </div>
       </header>
