@@ -1,0 +1,16 @@
+.language__select {
+  display: flex;
+  width: 96px;
+  height: 40px;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  cursor: pointer;
+}
+
+.language__select:focus{
+  border: none;
+  outline: none;
+}
+
+

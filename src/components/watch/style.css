@@ -1,0 +1,15 @@
+.time {
+  width: 100px;
+  font-family: 'Arial-MT';
+  font-size: 1.5rem;
+  text-align: center;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 480px){
+  .time {
+    margin-right: 0;
+  }
+}
+
+
